@@ -1,0 +1,8 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="nest" type="NodeJSConfigurationType" working-dir="$PROJECT_DIR$">
+    <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSStartBrowserRunConfigurationExtension">
+      <browser start="true" with-js-debugger="true" />
+    </EXTENSION>
+    <method v="2" />
+  </configuration>
+</component>
