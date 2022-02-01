@@ -1,4 +1,4 @@
-name: publish Docker
+name: Publish Docker
 
 on:
   push:
@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: Publish to registry
-      - uses: elgohr/Publish-Docker-Github-Action@master
+        uses: elgohr/Publish-Docker-Github-Action@master
         with:
           register: docker.pkg.github.com
           name: docker.pkg.github.com/Rodion-progs/nodejs-api-top-page/nodejs-api-top-page
