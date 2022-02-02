@@ -9,11 +9,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
-      - name: Publish to registry
+      - name: Publish to registy
         uses: elgohr/Publish-Docker-Github-Action@master
         with:
-          register: docker.pkg.github.com
-          name: docker.pkg.github.com/Rodion-progs/nodejs-api-top-page/nodejs-api-top-page
+          registry: docker.pkg.github.com
+          name: docker.pkg.github.com/0c8cc950ba4b/nodejs-api-top-page
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
           tags: "develop"
